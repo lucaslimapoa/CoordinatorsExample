@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  CoordinatorsExample
+//  MVVM Example
 //
 //  Created by Lucas Lima on 19.10.21.
 //

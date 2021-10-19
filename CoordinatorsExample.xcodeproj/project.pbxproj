@@ -7,27 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D4B6B83A271F0A4100C7DEC7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B6B839271F0A4100C7DEC7 /* AppDelegate.swift */; };
-		D4B6B83C271F0A4100C7DEC7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B6B83B271F0A4100C7DEC7 /* SceneDelegate.swift */; };
-		D4B6B83E271F0A4100C7DEC7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B6B83D271F0A4100C7DEC7 /* ViewController.swift */; };
-		D4B6B841271F0A4100C7DEC7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4B6B83F271F0A4100C7DEC7 /* Main.storyboard */; };
-		D4B6B843271F0A4200C7DEC7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4B6B842271F0A4200C7DEC7 /* Assets.xcassets */; };
-		D4B6B846271F0A4200C7DEC7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4B6B844271F0A4200C7DEC7 /* LaunchScreen.storyboard */; };
+		D4B6B892271F1B0E00C7DEC7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B6B891271F1B0E00C7DEC7 /* AppDelegate.swift */; };
+		D4B6B894271F1B0E00C7DEC7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B6B893271F1B0E00C7DEC7 /* SceneDelegate.swift */; };
+		D4B6B896271F1B0E00C7DEC7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B6B895271F1B0E00C7DEC7 /* ViewController.swift */; };
+		D4B6B89B271F1B0F00C7DEC7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4B6B89A271F1B0F00C7DEC7 /* Assets.xcassets */; };
+		D4B6B89E271F1B0F00C7DEC7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4B6B89C271F1B0F00C7DEC7 /* LaunchScreen.storyboard */; };
+		D4B6B8A3271F1C0C00C7DEC7 /* FirstCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B6B84D271F0AA800C7DEC7 /* FirstCoordinator.swift */; };
+		D4B6B8A4271F1C0C00C7DEC7 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B6B83D271F0A4100C7DEC7 /* FirstViewController.swift */; };
+		D4B6B8A5271F1C0C00C7DEC7 /* FirstViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B6B851271F0D0900C7DEC7 /* FirstViewModel.swift */; };
+		D4B6B8A8271F1DE700C7DEC7 /* SecondCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B6B8A7271F1DE700C7DEC7 /* SecondCoordinator.swift */; };
+		D4B6B8AA271F1DF000C7DEC7 /* SecondViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B6B8A9271F1DF000C7DEC7 /* SecondViewModel.swift */; };
+		D4B6B8AC271F1DFA00C7DEC7 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B6B8AB271F1DFA00C7DEC7 /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		D4B6B836271F0A4100C7DEC7 /* CoordinatorsExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoordinatorsExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		D4B6B839271F0A4100C7DEC7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D4B6B83B271F0A4100C7DEC7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D4B6B83D271F0A4100C7DEC7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		D4B6B840271F0A4100C7DEC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		D4B6B842271F0A4200C7DEC7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		D4B6B845271F0A4200C7DEC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		D4B6B847271F0A4200C7DEC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4B6B83D271F0A4100C7DEC7 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		D4B6B84D271F0AA800C7DEC7 /* FirstCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstCoordinator.swift; sourceTree = "<group>"; };
+		D4B6B851271F0D0900C7DEC7 /* FirstViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewModel.swift; sourceTree = "<group>"; };
+		D4B6B88F271F1B0E00C7DEC7 /* MVVM Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MVVM Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4B6B891271F1B0E00C7DEC7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D4B6B893271F1B0E00C7DEC7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D4B6B895271F1B0E00C7DEC7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D4B6B89A271F1B0F00C7DEC7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D4B6B89D271F1B0F00C7DEC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D4B6B89F271F1B0F00C7DEC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4B6B8A7271F1DE700C7DEC7 /* SecondCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondCoordinator.swift; sourceTree = "<group>"; };
+		D4B6B8A9271F1DF000C7DEC7 /* SecondViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewModel.swift; sourceTree = "<group>"; };
+		D4B6B8AB271F1DFA00C7DEC7 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		D4B6B833271F0A4100C7DEC7 /* Frameworks */ = {
+		D4B6B88C271F1B0E00C7DEC7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -40,7 +50,7 @@
 		D4B6B82D271F0A4100C7DEC7 = {
 			isa = PBXGroup;
 			children = (
-				D4B6B838271F0A4100C7DEC7 /* CoordinatorsExample */,
+				D4B6B890271F1B0E00C7DEC7 /* MVVM Example */,
 				D4B6B837271F0A4100C7DEC7 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -48,43 +58,72 @@
 		D4B6B837271F0A4100C7DEC7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D4B6B836271F0A4100C7DEC7 /* CoordinatorsExample.app */,
+				D4B6B88F271F1B0E00C7DEC7 /* MVVM Example.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D4B6B838271F0A4100C7DEC7 /* CoordinatorsExample */ = {
+		D4B6B84F271F0CF500C7DEC7 /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
-				D4B6B839271F0A4100C7DEC7 /* AppDelegate.swift */,
-				D4B6B83B271F0A4100C7DEC7 /* SceneDelegate.swift */,
-				D4B6B83D271F0A4100C7DEC7 /* ViewController.swift */,
-				D4B6B83F271F0A4100C7DEC7 /* Main.storyboard */,
-				D4B6B842271F0A4200C7DEC7 /* Assets.xcassets */,
-				D4B6B844271F0A4200C7DEC7 /* LaunchScreen.storyboard */,
-				D4B6B847271F0A4200C7DEC7 /* Info.plist */,
+				D4B6B850271F0CFB00C7DEC7 /* First */,
+				D4B6B8A6271F1DCD00C7DEC7 /* Second */,
 			);
-			path = CoordinatorsExample;
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		D4B6B850271F0CFB00C7DEC7 /* First */ = {
+			isa = PBXGroup;
+			children = (
+				D4B6B84D271F0AA800C7DEC7 /* FirstCoordinator.swift */,
+				D4B6B83D271F0A4100C7DEC7 /* FirstViewController.swift */,
+				D4B6B851271F0D0900C7DEC7 /* FirstViewModel.swift */,
+			);
+			path = First;
+			sourceTree = "<group>";
+		};
+		D4B6B890271F1B0E00C7DEC7 /* MVVM Example */ = {
+			isa = PBXGroup;
+			children = (
+				D4B6B84F271F0CF500C7DEC7 /* Scenes */,
+				D4B6B891271F1B0E00C7DEC7 /* AppDelegate.swift */,
+				D4B6B893271F1B0E00C7DEC7 /* SceneDelegate.swift */,
+				D4B6B895271F1B0E00C7DEC7 /* ViewController.swift */,
+				D4B6B89A271F1B0F00C7DEC7 /* Assets.xcassets */,
+				D4B6B89C271F1B0F00C7DEC7 /* LaunchScreen.storyboard */,
+				D4B6B89F271F1B0F00C7DEC7 /* Info.plist */,
+			);
+			path = "MVVM Example";
+			sourceTree = "<group>";
+		};
+		D4B6B8A6271F1DCD00C7DEC7 /* Second */ = {
+			isa = PBXGroup;
+			children = (
+				D4B6B8A7271F1DE700C7DEC7 /* SecondCoordinator.swift */,
+				D4B6B8A9271F1DF000C7DEC7 /* SecondViewModel.swift */,
+				D4B6B8AB271F1DFA00C7DEC7 /* SecondViewController.swift */,
+			);
+			path = Second;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D4B6B835271F0A4100C7DEC7 /* CoordinatorsExample */ = {
+		D4B6B88E271F1B0E00C7DEC7 /* MVVM Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D4B6B84A271F0A4200C7DEC7 /* Build configuration list for PBXNativeTarget "CoordinatorsExample" */;
+			buildConfigurationList = D4B6B8A0271F1B0F00C7DEC7 /* Build configuration list for PBXNativeTarget "MVVM Example" */;
 			buildPhases = (
-				D4B6B832271F0A4100C7DEC7 /* Sources */,
-				D4B6B833271F0A4100C7DEC7 /* Frameworks */,
-				D4B6B834271F0A4100C7DEC7 /* Resources */,
+				D4B6B88B271F1B0E00C7DEC7 /* Sources */,
+				D4B6B88C271F1B0E00C7DEC7 /* Frameworks */,
+				D4B6B88D271F1B0E00C7DEC7 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = CoordinatorsExample;
-			productName = CoordinatorsExample;
-			productReference = D4B6B836271F0A4100C7DEC7 /* CoordinatorsExample.app */;
+			name = "MVVM Example";
+			productName = "MVVM Example";
+			productReference = D4B6B88F271F1B0E00C7DEC7 /* MVVM Example.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -97,7 +136,7 @@
 				LastSwiftUpdateCheck = 1310;
 				LastUpgradeCheck = 1310;
 				TargetAttributes = {
-					D4B6B835271F0A4100C7DEC7 = {
+					D4B6B88E271F1B0E00C7DEC7 = {
 						CreatedOnToolsVersion = 13.1;
 					};
 				};
@@ -115,50 +154,47 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D4B6B835271F0A4100C7DEC7 /* CoordinatorsExample */,
+				D4B6B88E271F1B0E00C7DEC7 /* MVVM Example */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		D4B6B834271F0A4100C7DEC7 /* Resources */ = {
+		D4B6B88D271F1B0E00C7DEC7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D4B6B846271F0A4200C7DEC7 /* LaunchScreen.storyboard in Resources */,
-				D4B6B843271F0A4200C7DEC7 /* Assets.xcassets in Resources */,
-				D4B6B841271F0A4100C7DEC7 /* Main.storyboard in Resources */,
+				D4B6B89E271F1B0F00C7DEC7 /* LaunchScreen.storyboard in Resources */,
+				D4B6B89B271F1B0F00C7DEC7 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		D4B6B832271F0A4100C7DEC7 /* Sources */ = {
+		D4B6B88B271F1B0E00C7DEC7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D4B6B83E271F0A4100C7DEC7 /* ViewController.swift in Sources */,
-				D4B6B83A271F0A4100C7DEC7 /* AppDelegate.swift in Sources */,
-				D4B6B83C271F0A4100C7DEC7 /* SceneDelegate.swift in Sources */,
+				D4B6B8AA271F1DF000C7DEC7 /* SecondViewModel.swift in Sources */,
+				D4B6B8A3271F1C0C00C7DEC7 /* FirstCoordinator.swift in Sources */,
+				D4B6B8A4271F1C0C00C7DEC7 /* FirstViewController.swift in Sources */,
+				D4B6B8AC271F1DFA00C7DEC7 /* SecondViewController.swift in Sources */,
+				D4B6B8A5271F1C0C00C7DEC7 /* FirstViewModel.swift in Sources */,
+				D4B6B896271F1B0E00C7DEC7 /* ViewController.swift in Sources */,
+				D4B6B8A8271F1DE700C7DEC7 /* SecondCoordinator.swift in Sources */,
+				D4B6B892271F1B0E00C7DEC7 /* AppDelegate.swift in Sources */,
+				D4B6B894271F1B0E00C7DEC7 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		D4B6B83F271F0A4100C7DEC7 /* Main.storyboard */ = {
+		D4B6B89C271F1B0F00C7DEC7 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				D4B6B840271F0A4100C7DEC7 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		D4B6B844271F0A4200C7DEC7 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D4B6B845271F0A4200C7DEC7 /* Base */,
+				D4B6B89D271F1B0F00C7DEC7 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -282,7 +318,7 @@
 			};
 			name = Release;
 		};
-		D4B6B84B271F0A4200C7DEC7 /* Debug */ = {
+		D4B6B8A1271F1B0F00C7DEC7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -290,10 +326,9 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = CoordinatorsExample/Info.plist;
+				INFOPLIST_FILE = "MVVM Example/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -301,7 +336,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.lucaslima.CoordinatorsExample;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lucaslima.MVVM-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -309,7 +344,7 @@
 			};
 			name = Debug;
 		};
-		D4B6B84C271F0A4200C7DEC7 /* Release */ = {
+		D4B6B8A2271F1B0F00C7DEC7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -317,10 +352,9 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = CoordinatorsExample/Info.plist;
+				INFOPLIST_FILE = "MVVM Example/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -328,7 +362,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.lucaslima.CoordinatorsExample;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lucaslima.MVVM-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -348,11 +382,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D4B6B84A271F0A4200C7DEC7 /* Build configuration list for PBXNativeTarget "CoordinatorsExample" */ = {
+		D4B6B8A0271F1B0F00C7DEC7 /* Build configuration list for PBXNativeTarget "MVVM Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D4B6B84B271F0A4200C7DEC7 /* Debug */,
-				D4B6B84C271F0A4200C7DEC7 /* Release */,
+				D4B6B8A1271F1B0F00C7DEC7 /* Debug */,
+				D4B6B8A2271F1B0F00C7DEC7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
